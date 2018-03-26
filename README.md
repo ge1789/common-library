@@ -1,5 +1,5 @@
 Random Canon and Reprint Canon
-=================================
+==============================
 
 This repository contains chapters (randomly sampled) from novels. The novels themselves are randomly sampled from two populations:
 
@@ -9,10 +9,11 @@ This repository contains chapters (randomly sampled) from novels. The novels the
 Manifest
 --------
 
--	`texts` contains chapters. Texts are encoded using HTML5.
+-	`texts` contains chapters. Filenames begin with ATCL title ids. Texts are encoded using HTML5.
 -	`supplementary-materials` contains data used to construct the random samples.
+- `random_canon.csv` and `reprint_canon.csv` contain metadata about the chapters.
 
-Legal
------
+Public Domain
+-------------
 
 All texts in this repository are in the public domain.
