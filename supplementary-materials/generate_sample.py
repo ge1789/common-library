@@ -14,7 +14,7 @@ def main():
     records = []
     for draw_index in range(count):
         row = dfm.iloc[np.random.choice(len(dfm), p=proba)]
-        records.append((draw_index, ) + tuple(row[['year', 'gender']].tolist()))
+        records.append((draw_index + 1, ) + tuple(row[['year', 'gender']].tolist()))
     columns = ['sequence_number', 'year', 'gender']
     draws = pd.DataFrame.from_records(records, columns=columns).set_index('sequence_number')  # noqa
     filename = '/tmp/novels-1837-1901-random-sample-20180227.csv'
