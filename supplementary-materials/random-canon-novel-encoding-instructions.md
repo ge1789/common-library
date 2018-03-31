@@ -25,6 +25,7 @@ Here are two more paragraphs. The second paragraph contains words in italics:
 
 Follow these rules when encoding the text of a chapter.
 
+1. Find a scan of the British first edition. Second editions and American editions often have differences. For example, the British first edition of *The Admiral's Ward* has 50 chapters; the American edition has 51 chapters.
 1. Use a (plain) text editor to enter the contents of the text. (On macOS [Sublime Text](https://www.sublimetext.com/) seems to work well.)
 2. Enter em-dashes (—) as two hyphens (--).
 3. Use straight quotes (") and straight apostrophes (').
