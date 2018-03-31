@@ -27,12 +27,12 @@ Follow these rules when encoding the text of a chapter.
 
 1. Find a scan of the British first edition. Second editions and American editions often have differences. For example, the British first edition of *The Admiral's Ward* has 50 chapters; the American edition has 51 chapters.
 1. Use a (plain) text editor to enter the contents of the text. (On macOS [Sublime Text](https://www.sublimetext.com/) seems to work well.)
-2. Enter em-dashes (—) as two hyphens (--).
-3. Use straight quotes (") and straight apostrophes (').
-4. Enter accented characters (ë), ligatures (æ), and any characters not in the normal Latin alphabet directly ([macOS instructions](https://support.apple.com/en-us/HT201586)).
-5. Enter italics using the ``<i>`` tag (``<i>italicized text</i>``).
-6. Initial caps should be converted into normal case. For example, a chapter starting with all caps "THE" should be converted to "The").
-7. Footnotes using superscripts in the original should be entered as follows in a way that preserves the spirit of the original.
+1. Enter em-dashes (—) as two hyphens (--).
+1. Use straight quotes (") and straight apostrophes (').
+1. Enter accented characters (ë), ligatures (æ), and any characters not in the normal Latin alphabet directly ([macOS instructions](https://support.apple.com/en-us/HT201586)).
+1. Enter italics using the ``<i>`` tag (``<i>italicized text</i>``).
+1. Initial caps should be converted into normal case. For example, a chapter starting with all caps "THE" should be converted to "The").
+1. Footnotes using superscripts in the original should be entered as follows in a way that preserves the spirit of the original.
 
     The following shows an example of how the appearance of the footnote should be entered:
 
@@ -47,8 +47,8 @@ Follow these rules when encoding the text of a chapter.
     <p id="fn2"><sup>2</sup> The poorer artisans connected with the wool trade—wool-beaters, carders, washers, etcetera.</p>
     </section>
     ```
-8. Use HTML comments as needed to indicate unusual features of the text. For example: ``<p></p> <!-- extra space between paragraphs in the original. -->``
-9. Start each document with the following:
+1. Use HTML comments as needed to indicate unusual features of the text. For example: ``<p></p> <!-- extra space between paragraphs in the original. -->``
+1. Start each document with the following:
     ```
     <!doctype html>
     <title>Chapter N of TITLE by AUTHOR</title>
