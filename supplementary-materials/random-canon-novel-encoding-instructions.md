@@ -81,13 +81,14 @@ The command above requires the Python tool smartypants.
 Pass 3: Quality Control
 =======================
 
-*For reference only.* These steps will be taken automatically.
+*For reference only.* These steps will be taken automatically by ``scripts/quality_control_checks.py``.
 
+1. Verify ``<i>`` is used to encode italics.
 1. Verify no en-dashes exist. (Sometimes a text will mistakenly use en-dashes instead of em-dashes.)
-2. Verify no straight quotation marks exist.
-3. Verify no straight apostrophes exist.
-4. Verify no unintended (OCR artifact) ligatures exist (e.g., ﬀ, ﬁ, ﬂ). The easiest way to do this is to show all non-ASCII characters in a file: ``grep --color='auto' -P -n '[^\x00-\x7F]' 2629__payn_halves_chp30of32_seed2629.html``
-5. Check for HTML5 errors with tidy: ``tidy -e 2629__payn_halves_chp30of32_seed2629.html``. Ignore the error about implicit ``<body>``, we do not use this tag; fix all other errors.
+1. Verify no straight quotation marks exist.
+1. Verify no straight apostrophes exist.
+1. Verify no unintended (OCR artifact) ligatures exist (e.g., ﬀ, ﬁ, ﬂ). The easiest way to do this is to show all non-ASCII characters in a file: ``grep --color='auto' -P -n '[^\x00-\x7F]' 2629__payn_halves_chp30of32_seed2629.html``
+1. Check for HTML5 errors with tidy: ``tidy -e 2629__payn_halves_chp30of32_seed2629.html``. Ignore the error about implicit ``<body>``, we do not use this tag; fix all other errors.
 
 Useful notes:
 
