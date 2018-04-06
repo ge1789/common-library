@@ -26,8 +26,10 @@ def main(filename):
     print('checking whether <i> is used for italics', end='')
     _pass_or_fail('<em>' not in html)
 
-    print('checking for en-dashes ', end='')
+    print('checking for en-dashes (em-dashes prescribed)', end='')
     _pass_or_fail('–' not in text)
+    print('checking for horizontal bars (em-dashes prescribed) ', end='')
+    _pass_or_fail('―' not in text)
 
     print('checking for straight quotation marks ', end='')
     _pass_or_fail('"' not in text.replace(r'<meta charset="utf-8">', ''))
