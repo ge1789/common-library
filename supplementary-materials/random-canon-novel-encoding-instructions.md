@@ -25,7 +25,7 @@ Here are two more paragraphs. The second paragraph contains words in italics:
 
 Follow these rules when encoding the text of a chapter.
 
-1. Find a scan of the British first edition. Second editions and American editions often have differences. For example, the British first edition of *The Admiral's Ward* has 50 chapters; the American edition has 51 chapters.
+1. Find a scan of the British first edition. Second editions and American editions often have differences. For example, the British first edition of *The Admiral's Ward* has 50 chapters, but the American edition has 51 chapters.
 1. Use a (plain) text editor to enter the contents of the text. (On macOS [Sublime Text](https://www.sublimetext.com/) seems to work well.)
 1. Enter em-dashes (—) as two hyphens (--).
 1. Use straight quotes (") and straight apostrophes (').
@@ -55,15 +55,12 @@ Follow these rules when encoding the text of a chapter.
     <meta charset="utf-8">
     ```
 
-That's all.
-
 Pass 2: Standardize Dashes, Quotation Marks, and Apostrophes
 ============================================================
 
 *For reference only.* These steps will be taken automatically.
 
 A second (automated) pass is required to standardize dashes and quotation marks.
-
 
 Done on the command line (bash shell) with:
 
@@ -83,17 +80,15 @@ Pass 3: Quality Control
 
 *For reference only.* These steps will be taken automatically by ``scripts/quality_control_checks.py``.
 
+This is not an exhaustive list. See ``scripts/quality_control_checks.py`` for all checks.
+
 1. Verify ``<i>`` is used to encode italics.
 1. Verify no en-dashes exist. (Sometimes a text will mistakenly use en-dashes instead of em-dashes.)
 1. Verify no straight quotation marks exist.
 1. Verify no straight apostrophes exist.
 1. Verify no unintended (OCR artifact) ligatures exist (e.g., ﬀ, ﬁ, ﬂ). The easiest way to do this is to show all non-ASCII characters in a file: ``grep --color='auto' -P -n '[^\x00-\x7F]' 2629__payn_halves_chp30of32_seed2629.html``
-1. Check for HTML5 errors with tidy: ``tidy -e 2629__payn_halves_chp30of32_seed2629.html``. Ignore the error about implicit ``<body>``, we do not use this tag; fix all other errors.
+1. Check for HTML5 errors with tidy: ``tidy -e 2629__payn_halves_chp30of32_seed2629.html``. Ignore the error about implicit ``<body>``, we do not use the body tag.
 
 Useful notes:
 
-- In Python 3 you can get the unicode code point for a non-ASCII character with ``ord``, e.g., ``ord('’')`` returns 8217 which is the code for right single quotation mark (used for possessives).
-
-Wishlist
-========
-- Create a whitelist of non-ASCII characters which appear frequently. This will help identify a family of OCR errors.
+- In Python 3 you can get the Unicode code point for a non-ASCII character with ``ord``, e.g., ``ord('’')`` returns 8217 which is the code for right single quotation mark (used for possessives).
