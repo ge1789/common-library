@@ -9,7 +9,7 @@ import lxml.html
 parser = argparse.ArgumentParser(description='Check quality of encoding of a text.')
 parser.add_argument('filename', type=str)
 
-NON_ASCII_FREQUENT = set(r"""´‘’“”—àâæçÇéÉèêîôœû""")
+NON_ASCII_FREQUENT = set(r"""´‘’“”—àâæçÇéÉèêîôœûñ""")
 OCR_LIGATURE_ERRORS = set('ﬀﬁﬂ')
 
 def _pass_or_fail(success, message):
@@ -26,7 +26,7 @@ def main(filename):
     _pass_or_fail('–' not in text, 'checking for en-dashes (em-dashes prescribed)')
     _pass_or_fail('―' not in text, 'checking for horizontal bars (em-dashes prescribed) ')
     _pass_or_fail('‐' not in text, 'checking for Unicode hyphen (ASCII hyphen-minus prescribed) ')
-    _pass_or_fail('"' not in text.replace(r'<meta charset="utf-8">', ''), 'checking for straight quotation marks')
+    _pass_or_fail('"' not in text, 'checking for straight quotation marks')
     _pass_or_fail("'" not in text, 'checking for straight apostrophes')
     _pass_or_fail(not re.search('|'.join(OCR_LIGATURE_ERRORS), text),
                   f'checking for unintended ligatures ({",".join(OCR_LIGATURE_ERRORS)})')
