@@ -1,13 +1,13 @@
 Random Canon Novel Encoding Instructions
 ========================================
 
-Version 1.1
+Version 1.2
 
-In order to capture paragraph boundaries, novels will be encoded in plain text with a dash of HTML5.
+Novels are encoded using plain text with a limited number of HTML5 tags. Tags are used primarily to capture paragraph boundaries.
 
 **Examples**
 
-The following lines show two paragraphs from a Victorian novel properly encoded:
+The following lines show two paragraphs from a Victorian novel properly entered:
 
 ```
 <p>"Who is there?" cried a gruff voice from within.</p>
@@ -25,14 +25,14 @@ Here are two more paragraphs. The second paragraph contains words in italics:
 
 Follow these rules when encoding the text of a chapter.
 
-1. Find a scan of the British first edition. Second editions and American editions often have differences. For example, the British first edition of *The Admiral's Ward* has 50 chapters, but the American edition has 51 chapters.
-1. Use a (plain) text editor to enter the contents of the text. (On macOS [Sublime Text](https://www.sublimetext.com/) seems to work well.)
-1. Enter em-dashes (—) as two hyphens (--).
-1. Use straight quotes (") and straight apostrophes (').
-1. Enter accented characters (ë), ligatures (æ), and any characters not in the normal Latin alphabet directly ([macOS instructions](https://support.apple.com/en-us/HT201586)).
-1. Enter italics using the ``<i>`` tag (``<i>italicized text</i>``).
-1. Initial caps should be converted into normal case. For example, a chapter starting with all caps "THE" should be converted to "The").
-1. Footnotes using superscripts in the original should be entered as follows in a way that preserves the spirit of the original.
+1.	Find a scan of the British first edition. Second editions and American editions often have differences. For example, the British first edition of *The Admiral's Ward* has 50 chapters, but the American edition has 51 chapters.
+1.	Use a (plain) text editor to enter the contents of the text. (On macOS [Sublime Text](https://www.sublimetext.com/) seems to work well.)
+1.	Enter em-dashes (—) as two hyphens (--).
+1.	Use straight quotes (") and straight apostrophes (').
+1.	Enter accented characters (ë), ligatures (æ), and any characters not in the normal Latin alphabet directly ([macOS instructions](https://support.apple.com/en-us/HT201586)).
+1.	Enter italics using the ``<i>`` tag (``<i>italicized text</i>``).
+1.	Initial caps should be converted into normal case. For example, a chapter starting with all caps "THE" should be converted to "The").
+1.	Footnotes using superscripts in the original should be entered as follows in a way that preserves the spirit of the original.
 
     The following shows an example of how the appearance of the footnote should be entered:
 
@@ -47,13 +47,14 @@ Follow these rules when encoding the text of a chapter.
     <p id="fn2"><sup>2</sup> The poorer artisans connected with the wool trade—wool-beaters, carders, washers, etcetera.</p>
     </section>
     ```
-1. Use HTML comments as needed to indicate unusual features of the text. For example: ``<p></p> <!-- extra space between paragraphs in the original. -->``
-1. Start each document with the following:
+1.	Start each document with the following:
     ```
     <!doctype html>
     <title>Chapter N of TITLE by AUTHOR</title>
     <meta charset="utf-8">
     ```
+1.	Breaks in the text (e.g., extra space between paragraphs, breaks demarcated by a line of asterisks) may be encoded using the paragraph-level thematic break tag ``<hr>``.
+1.	Use HTML comments as needed to indicate unusual features of the text. For example: ``<hr> <!-- extra space between paragraphs in the original. -->``
 
 Pass 2: Standardize Dashes, Quotation Marks, and Apostrophes
 ============================================================

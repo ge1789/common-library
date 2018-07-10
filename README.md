@@ -11,6 +11,7 @@ Manifest
 
 -	`texts` contains chapters. Filenames begin with ATCL title ids. Texts are encoded using HTML5.
 -	`supplementary-materials` contains data used to construct the random samples.
+-	`novel-encoding-instructions.md` describes the encoding process.
 -	`random_canon.csv` and `reprint_canon.csv` contain metadata about the chapters.
 -	`scripts/quality_control_checks.py` checks to see if a text has been properly encoded.
 
