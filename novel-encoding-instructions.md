@@ -21,7 +21,7 @@ Here are two more paragraphs. The second paragraph contains words in italics:
 <p>Not much use, for he's the type before whom a veritable <i>drame du coeur</i> might be played without his seeing any of it.</p>
 ```
 
-**Instructions**
+**General Instructions**
 
 Follow these rules when encoding the text of a chapter.
 
@@ -55,6 +55,14 @@ Follow these rules when encoding the text of a chapter.
     ```
 1.	Breaks in the text (e.g., extra space between paragraphs, breaks demarcated by a line of asterisks) may be encoded using the paragraph-level thematic break tag ``<hr>``.
 1.	Use HTML comments as needed to indicate unusual features of the text. For example: ``<hr> <!-- extra space between paragraphs in the original. -->``
+
+
+**Encoding Unusual Characters**
+
+The rules above should suffice for more than 95% of cases. The following rules deal with unusual situations.
+
+- Encode a [redaction](https://en.wikipedia.org/wiki/Fillet_(redaction)) using two em-dashes in a sequence, "—―". Enter (or cut and paste) the em-dashes directly into the text.
+
 
 Pass 2: Standardize Dashes, Quotation Marks, and Apostrophes
 ============================================================
