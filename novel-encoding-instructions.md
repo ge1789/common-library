@@ -21,7 +21,7 @@ Here are two more paragraphs. The second paragraph contains words in italics:
 <p>Not much use, for he's the type before whom a veritable <i>drame du coeur</i> might be played without his seeing any of it.</p>
 ```
 
-**General Instructions**
+## General Instructions
 
 Follow these rules when encoding the text of a chapter.
 
@@ -64,8 +64,7 @@ The rules above should suffice for more than 95% of cases. The following rules d
 - Encode a [redaction](https://en.wikipedia.org/wiki/Fillet_(redaction)) using two em-dashes in a sequence, "—―". Enter (or cut and paste) the em-dashes directly into the text.
 
 
-Pass 2: Standardize Dashes, Quotation Marks, and Apostrophes
-============================================================
+## Standardize Dashes, Quotation Marks, and Apostrophes
 
 *For reference only.* These steps will be taken automatically.
 
@@ -83,13 +82,11 @@ FILENAME=data/4123__trollope_barchester_towers_chp49of53_seed4123.html && \
 
 The command above requires the Python tool smartypants.
 
-
-Pass 3: Quality Control
-=======================
+## Quality Control
 
 *For reference only.* These steps will be taken automatically by ``scripts/quality_control_checks.py``.
 
-This is not an exhaustive list. See ``scripts/quality_control_checks.py`` for all checks.
+Use ``scripts/quality_control_checks.py`` to check for problems in the encoded text. The script runs numerous checks including the following:
 
 1. Verify ``<i>`` is used to encode italics.
 1. Verify no en-dashes exist. (Sometimes a text will mistakenly use en-dashes instead of em-dashes.)
