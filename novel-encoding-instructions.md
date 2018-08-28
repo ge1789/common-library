@@ -105,3 +105,20 @@ Useful notes:
 - How should I enter an ellipsis "..."?
 
 Enter an ellipsis using a sequence of ordinary periods. Do not use a Unicode ellipsis ("…").
+
+- How should I enter an epigraph (e.g., a quotation at the start of a chapter)?
+
+Epigraphs should be entered. As you would for any text set off from the main chapter text, surround the epigraph with an opening and closing ``<div>``. Here is how a quotation from Byron might be entered.
+
+```
+<!-- "Byron." is small caps and right justified -->
+<div>
+<p>
+"The first dark day of nothingness,<br>
+The last of danger and distress."<br>
+Byron.
+</p>
+</div>
+```
+
+(This occurs at the start of a chapter in Gaskell's *Mary Barton*.)
