@@ -98,3 +98,10 @@ Use ``scripts/quality_control_checks.py`` to check for problems in the encoded t
 Useful notes:
 
 - In Python 3 you can get the Unicode code point for a non-ASCII character with ``ord``, e.g., ``ord('’')`` returns 8217 which is the code for right single quotation mark (used for possessives).
+
+
+## Frequently Asked Questions
+
+- How should I enter an ellipsis "..."?
+
+Enter an ellipsis using a sequence of ordinary periods. Do not use a Unicode ellipsis ("…").
