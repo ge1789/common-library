@@ -55,7 +55,7 @@ Follow these rules when encoding the text of a chapter.
     ```
 1.	Breaks in the text (e.g., extra space between paragraphs, breaks demarcated by a line of asterisks) may be encoded using the paragraph-level thematic break tag ``<hr>``.
 1.	Use HTML comments as needed to indicate unusual features of the text. For example: ``<hr> <!-- extra space between paragraphs in the original. -->``
-
+1. Undo end-of-line hyphenation.
 
 **Encoding Unusual Characters**
 
