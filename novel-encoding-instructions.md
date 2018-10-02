@@ -122,3 +122,7 @@ Byron.
 ```
 
 (This occurs at the start of a chapter in Gaskell's *Mary Barton*.)
+
+- One edition uses single quotes for dialog and the other uses double quotes. Which should I use?
+
+Use whatever the first edition uses. If a first edition is unavailable, use the earliest edition available.
