@@ -33,5 +33,5 @@ sample_index,year,gender,filename,label
 32,1865,w,7705__gaskell_grey_woman_chp4of12_seed7705.html,reprint
 33,1862,m,7012__trollope_orley_farm_chp60of80_seed7012.html,reprint
 34,1883,w,864__oliphant_hester_chp10of16_seed864.html,reprint
-36,1866,w,5436__gaskell_wives_daughters_chp27of60_seed5436.html
-64,1848,m,7155__thackeray_vanity_fair_chp46of67_seed7155.html
+36,1866,w,5436__gaskell_wives_daughters_chp27of60_seed5436.html,reprint
+64,1848,m,7155__thackeray_vanity_fair_chp46of67_seed7155.html,reprint
