@@ -75,6 +75,7 @@ Follow these rules when encoding the text of a chapter.
     <meta charset="utf-8">
     ```
 1.	Breaks in the text (e.g., extra space between paragraphs, breaks demarcated by a line of asterisks) may be encoded using the paragraph-level thematic break tag ``<hr>``.
+1.	Enter chapter numbers and chapter titles as comments (e.g., ``<!-- CHAPTER IX.<br>AMONG THE OUTLAWS. -->``).
 
 **Encoding Unusual Characters**
 
