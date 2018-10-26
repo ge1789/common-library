@@ -38,15 +38,41 @@ def main(filename):
 
     command = ['tidy', '-e', filename]
     process = subprocess.run(command, check=False, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True)  # noqa
-    errors = int(re.search(r'([0-9]+) error', process.stdout).group(1))
-    if errors:
-        print('checking for HTML5 errors with `tidy`', '✗')
-        print('HTML5 errors found (ignore warning about `body` tag):')
+    # match parts of a line like this in the output:
+    # `Tidy found 8 warnings and 1 error!`
+    # note that we expect this: `Tidy found 1 warning and 0 errors!` since we
+    # anticipate a warning about an implicit <body>
+    try:
+        error_count = int(re.search(r' ([0-9]+) error', process.stdout).group(1))
+    except AttributeError:
+        error_count = 0
+    try:
+        warning_count = int(re.search(r'([0-9]+) warning', process.stdout).group(1))
+    except AttributeError:
+        warning_count = 0
+
+    # count warnings which we are ignoring
+    ignored_warning_texts = [r'inserting implicit <body>', r'unescaped & or unknown entity']
+    ignored_warning_count = 0
+    for warning_text in ignored_warning_texts:
+        if warning_text in process.stdout:
+            ignored_warning_count += 1
+
+    # remaining warnings
+    warning_count -= ignored_warning_count
+    if error_count > 0 or warning_count != 0:
+        print('checking for HTML5 errors or warnings with `tidy`', '✗')
         for line in process.stdout.splitlines():
+            # stop printing at the license notice
             if line.startswith('About HTML Tidy:'):
                 break
-            print(line)
+            # ignore the one warning we do expect to see
+            if any(warning_text in line for warning_text in ignored_warning_texts):
+                continue
+            if 'Error' in line or 'Warning' in line:
+                print(line)
         sys.exit(1)
+
 
 if __name__ == '__main__':
     args = parser.parse_args()
