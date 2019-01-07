@@ -29,7 +29,7 @@ def main():
         sys.exit(1)
     mentioned_but_absent = set(filenames_mentioned) - set(novel_filenames)
     if mentioned_but_absent:
-        message = """Filenames mentioned in csv files but absent in repository:\n""" + "\n".join(mentioned)
+        message = """Filenames mentioned in csv files but absent in repository:\n""" + "\n".join(mentioned_but_absent)
         print(message, file=sys.stderr)
         sys.exit(1)
 
