@@ -1,10 +1,10 @@
 Random Canon and Reprint Canon
 ==============================
 
-This repository contains chapters (randomly sampled) from novels. The novels themselves are randomly sampled from two populations:
+This repository contains chapters (randomly sampled) from novels. The novels themselves are randomly sampled (without replacement) from two populations:
 
--	Novels published in the British Isles for the first time between 1837 and 1901 (**Random Canon**).
--	Novels in the above population which were still available (i.e., in print) in 2017 from Penguin, Oxford, or Broadview (**Reprint Canon**).
+-	Novels published in the British Isles for the first time between 1837 and 1901 (**Random Canon**). The sampling frame is restricted to novels for which there exist page images of the first edition as of 2018-12-31 11:59:59 UTC. Internet Archive, Google Books/HathiTrust, and the British Library are the only sources which are checked for page images.
+-	Novels published in the British Isles for the first time between 1837 and 1901 which are still available ("in print") in 2017 from Penguin, Oxford, or Broadview (**Reprint Canon**).
 
 Encoding instructions
 ---------------------
