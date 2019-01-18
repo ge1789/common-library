@@ -14,7 +14,9 @@ The encoding procedure used is described in [`novel-encoding-instructions.md`](n
 Manifest
 --------
 
--	`random_canon.csv` and `reprint_canon.csv` contain metadata about the chapters.
+-	`random_canon.csv` contains metadata about the Random Canon titles.
+-	`reprint_canon.csv` contains metadata about the Reprint Canon titles.
+-	`other_novels.csv` contains metadata about texts included in the repository incidentally. These are not part of either Canon. These novels survive but there are no page scans of the first edition as of the end of 2018.
 -	`scripts/quality_control_checks.py` checks to see if a text has been properly encoded.
 -	`supplementary-materials` contains data used to construct the random samples.
 -	`texts` contains chapters. Filenames begin with ATCL title ids. Texts are encoded using HTML5.
