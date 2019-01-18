@@ -1,7 +1,7 @@
 Random Canon Novel Encoding Instructions
 ========================================
 
-Version 1.3
+Version 1.3.1
 
 Novels are encoded using plain text with a limited number of HTML5 tags. Tags are used primarily to capture paragraph boundaries.
 
@@ -160,3 +160,14 @@ Second editions and American editions often have differences. For example, the B
 of *The Admiral's Ward* has 50 chapters, but the American edition has 51 chapters. Since one of the
 goals of this project is to create an common reference point for cultural analysis, we select
 editions in a manner that others can reproduce.
+
+- What about intertitles?
+
+Intertitles are a feature of some novels from the period. Treat them like
+chapter titles and comment them out. Here are some intertitles which are
+correctly commented out:
+
+```
+<!-- the following div contains intertitles -->
+<!-- <div><p>“HANG ME?”—THE INCA’S ADDRESS TO HIS CHILDREN —INCARIAL SACRAMENT — THE INDIANS DO NOT CHEER — GRAN DIOS! WHY ARE THEY DUMB? — A FATAL DELAY — A SLIGHT PEEP INTO A SPANISH “WORKSHOP” — A NEW WAY OF KILLING TWO BIRDS WITH ONE STONE — ZAGRAZMIT’S CONSCIENCE SMITES HIM, AND HE TAKES AN OATH, AND MAKES A BLAZE —ENTHUSIASM — “TO CUZCO!”</p></div> -->
+```
