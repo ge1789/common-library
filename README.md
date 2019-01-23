@@ -23,6 +23,10 @@ Manifest
 -	[`novel-encoding-instructions.md`](novel-encoding-instructions.md) describes the encoding process.
 -	[`adding-an-encoded-novel.md`](adding-an-encoded-novel.md) describes how to add a novel to this repository.
 
+Known issues
+------------
+
+- Curly quotation marks (``‘…’`` and ``“…”``) are not always entered correctly. Analyses should not require distinguishing between, say, ``“`` and ``”``. Counts of puncutation marks per sentence or paragraph, however, should be reliable.
 
 Public Domain
 -------------
