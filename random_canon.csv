@@ -1,4 +1,4 @@
-sample_index,year,gender,filename,label,single-novel-author,multivolume_novel,notes
+sample_index,year,gender,filename,label,single_novel_author,multivolume_novel,notes
 1,1899,m,15723__nisbet_comrades_chp9of37_seed15723.html,random,0,0,
 2,1886,w,6129__cameron_life'smistake_chp3of32_seed6129.html,random,0,1,
 3,1837,m,7083__gleig_hussar_chp8of30_seed7083.html,random,0,1,
