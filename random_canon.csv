@@ -28,7 +28,7 @@ sample_index,year,gender,filename,label,single_novel_author,multivolume_novel,no
 27,1863,m,14640__hood_disputed_chp2of29_seed14640.html,random,0,0,
 28,1851,m,3583__james_fate_chp15of47_seed3583.html,random,0,1,
 29,1878,m,7477__adams_wilton_chp9of24_seed7477.html,random,0,0,
-30,1900,w,3090__conyers_thorn_bit_chp17of41_seed3090.html,random,0,1,
+30,1900,w,13760__conyers_thorn_bit_chp17of41_seed3090.html,random,0,0,"random seed was accidentally author id, not title id"
 31,1866,m,522__platt_angelo_chp3of38_seed522.html,random,0,1,
 32,1899,m,8440__raymond_two_men_chp19of19_seed8440.html,random,0,0,
 33,1882,m,13839__daunt_three_trappers_chp9of16_seed13839.html,random,0,0,
