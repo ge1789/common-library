@@ -44,7 +44,7 @@ sample_index,year,gender,filename,label,single_novel_author,multivolume_novel,no
 43,1890,m,4651__gissing_emancipated_chp23of33_seed4651.html,random,0,1,
 44,1893,w,6565__coleridge_waynflete_chp24of34_seed6565.html,random,0,1,
 45,1867,m,5683__spicer_bound_chp9of25_seed5683.html,random,0,1,
-46,1900,m,8557__boothby_chp2of22_seed8557.html,random,0,1,
+46,1900,m,8557__boothby_chp2of22_seed8557.html,random,0,0,
 47,1850,u,4040__anon_sin_chp4of56_seed4040.html,random,0,1,
 48,1891,m,4844__castle_consequences_chp9of35_seed4844.html,random,0,1,
 49,1890,m,6797__jeffery_marston_james_vraille_chp12of20_seed6797.html,random,1,1,
