@@ -57,11 +57,15 @@ def main(filename):
         warning_count = 0
 
     # count warnings which we are ignoring
-    ignored_warning_texts = [r"inserting implicit <body>", r"unescaped & or unknown entity"]
+    ignored_warning_texts = [
+        r"Warning: inserting implicit <body>",
+        r'''Warning: unescaped & or unknown entity "&c."'''
+    ]
     ignored_warning_count = 0
-    for warning_text in ignored_warning_texts:
-        if warning_text in process.stdout:
-            ignored_warning_count += 1
+    for line in process.stdout.splitlines():
+        for warning_text in ignored_warning_texts:
+            if warning_text in line:
+                ignored_warning_count += 1
 
     # remaining warnings
     warning_count -= ignored_warning_count
