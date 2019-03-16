@@ -74,7 +74,7 @@ Follow these rules when encoding the text of a chapter.
     <title>Chapter N of TITLE by AUTHOR</title>
     <meta charset="utf-8">
     ```
-1.	Breaks in the text (e.g., extra space between paragraphs, breaks demarcated by a line of asterisks) may be encoded using the paragraph-level thematic break tag ``<hr>``.
+1.	Breaks in the text (e.g., extra space between paragraphs, breaks demarcated by a line of asterisks) should be encoded using the [paragraph-level thematic break tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) ``<hr>``.
 1.	Enter chapter numbers and chapter titles as comments (e.g., ``<!-- CHAPTER IX.<br>AMONG THE OUTLAWS. -->``).
 
 **Encoding Unusual Characters**
@@ -145,7 +145,8 @@ Byron.
 
 - One edition uses single quotes for dialog and the other uses double quotes. Which should I use?
 
-Use whatever the first edition uses. If a first edition is unavailable, use the earliest edition available.
+Use whatever the first edition uses.
+
 - How is the chapter selected?
 
 We use Python 3's random number generator to select a chapter. If the seed is 1234 and the total
