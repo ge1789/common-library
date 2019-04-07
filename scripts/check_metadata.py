@@ -14,9 +14,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def main():
-    CSV_FILENAMES = glob.glob(os.path.join(BASE_DIR, "*.csv"))
+    csv_filenames = glob.glob(os.path.join(BASE_DIR, "*.csv"))
+    csv_filenames = [fn for fn in csv_filenames if 'post-stratification' not in fn]
     filenames_mentioned = []
-    for csv_filename in CSV_FILENAMES:
+    for csv_filename in csv_filenames:
         with open(csv_filename, "r") as fh:
             reader = csv.DictReader(fh)
             for row in reader:
