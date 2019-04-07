@@ -32,3 +32,16 @@ Public Domain
 -------------
 
 All texts in this repository are in the public domain.
+
+Contributors
+------------
+
+(in order of joining)
+
+- Troy Bassett
+- Allen Riddell
+- Laura Schneider
+- Amy Yarnell
+- Hannah Mills
+- Rachel Condon
+- Sarah Duke
