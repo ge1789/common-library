@@ -46,7 +46,7 @@ sample_index,year,gender,filename,label
 45,1879,m,2308__james_roderick_hudson_chp8of13_seed2308.html,reprint
 46,1882,m,923__hardy_two_tower_chp31of41_seed923.html,reprint
 47,1883,w,6477__schreiner_african_farm_chp23of27_seed6477.html,reprint
-48,1862,m,138__collins_no_name_chp13of56_seed138.html,reprint
+48,1872,m,7498__hardy_under_greenwood_tree_chp21of30_seed7498.html,reprint
 49,1860,w,3038__eliot_mill_floss_chp10of58_seed3038.html,reprint
 50,1871,m,8811__macdonald_back_north_wind_chp20of38_seed8811.html,reprint
 51,1881,m,6112__trollope_wortle_chp21of24_seed6112.html,reprint
@@ -54,6 +54,10 @@ sample_index,year,gender,filename,label
 53,1898,m,8595__wells_war_worlds_chp27of27_seed8595.html,reprint
 54,1879,m,2465__meredith_egoist_chp34of51_seed2465.html,reprint
 64,1848,m,7155__thackeray_vanity_fair_chp46of67_seed7155.html,reprint
-83,1896,m,8591__wells_island_moreau_chp12of23_seed8591.html
-84,1891,m,9113__wilde_lord_arthur_chp18of18_seed9113.html
+76,1862,m,138__collins_no_name_chp13of56_seed138.html,reprint
+83,1896,m,8591__wells_island_moreau_chp12of23_seed8591.html,reprint
+84,1891,m,9113__wilde_lord_arthur_chp18of18_seed9113.html,reprint
 85,1892,m,11591__stevenson_beach_falesá_chp4of7_seed11591.html,reprint
+86,1858,m,4122__trollope_doctor_thorne_chp7of47_seed4122.html,reprint
+87,1864,m,5496__trollope_small_house_allington_chp18of60_seed5496.html,reprint
+88,1896,m,7499__hardy_jude_obscure_chp52of53_seed7499.html,reprint
