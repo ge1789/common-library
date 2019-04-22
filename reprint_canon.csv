@@ -43,9 +43,9 @@ sample_index,year,gender,filename,label
 42,1881,m,921__hardy_laodicean_chp23of43_seed921.html,reprint
 43,1866,w,218__eliot_felix_holt_chp20of53_seed218.html,reprint
 44,1888,w,8684__levy_romance_shop_chp3of25_seed8684.html,reprint
-45,1879,m,2308__james_roderick_hudson_chp8of13_seed2308.html,reprint
-46,1882,m,923__hardy_two_tower_chp31of41_seed923.html,reprint
-47,1883,w,6477__schreiner_african_farm_chp23of27_seed6477.html,reprint
+45,1849,w,3130__brontë_shirley_chp27of37_seed3130.html,reprint
+46,1848,m,7468__dickens_haunted_man_chp3of3_seed7468.html,reprint
+47,1895,m,7645__allen_woman_who_did_chp24of24_seed7645.html,reprint
 48,1872,m,7498__hardy_under_greenwood_tree_chp21of30_seed7498.html,reprint
 49,1860,w,3038__eliot_mill_floss_chp10of58_seed3038.html,reprint
 50,1871,m,8811__macdonald_back_north_wind_chp20of38_seed8811.html,reprint
@@ -54,6 +54,9 @@ sample_index,year,gender,filename,label
 53,1898,m,8595__wells_war_worlds_chp27of27_seed8595.html,reprint
 54,1879,m,2465__meredith_egoist_chp34of51_seed2465.html,reprint
 64,1848,m,7155__thackeray_vanity_fair_chp46of67_seed7155.html,reprint
+73,1879,m,2308__james_roderick_hudson_chp8of13_seed2308.html,reprint
+74,1882,m,923__hardy_two_tower_chp31of41_seed923.html,reprint
+75,1883,w,6477__schreiner_african_farm_chp23of27_seed6477.html,reprint
 76,1862,m,138__collins_no_name_chp13of56_seed138.html,reprint
 83,1896,m,8591__wells_island_moreau_chp12of23_seed8591.html,reprint
 84,1891,m,9113__wilde_lord_arthur_chp18of18_seed9113.html,reprint
