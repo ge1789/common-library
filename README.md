@@ -38,8 +38,7 @@ Contributors
 
 (in order of joining)
 
-- Troy Bassett
-- Allen Riddell
+- Troy Bassett, Allen Riddell
 - Laura Schneider
 - Amy Yarnell
 - Hannah Mills
