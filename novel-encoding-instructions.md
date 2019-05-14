@@ -155,6 +155,9 @@ on the Linux/macOS command line: ``python3 -c "import
 random;random.seed(1234);print(random.randrange(21) + 1)"``. This tiny Python script prints the
 number 15, so we use chapter 15.
 
+In some cases Python 2's random number generator was used. Python 2's random
+number generator is different and will generate a different number.
+
 - Why insist on using British first editions?
 
 Second editions and American editions often have differences. For example, the British first edition
