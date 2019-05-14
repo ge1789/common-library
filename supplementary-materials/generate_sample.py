@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 random_seed = 1
-count = 75
+count = 200
 
 def main():
     np.random.seed(random_seed)
