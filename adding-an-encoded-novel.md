@@ -1,5 +1,5 @@
 # Post-Encoding Instructions
-This document describes how to add a novel to the dataset. Before a novel is submitted it must be encoded using the instructions found in the document [Random Canon Novel Encoding Instructions](novel-encoding-instructions.md).
+This document describes how to add a novel to the dataset. Before a novel is submitted it must be encoded using the instructions found in the document [Prose Fiction Encoding Instructions](https://handbook.ge1789.org/encoding-instructions/).
 
 ## Ubuntu for Windows
 Much of the work we do in this tutorial will be done on the command line (bash shell). If you have a Windows machine with Windows 10, you can get access to this by downloading Ubuntu for Windows from the [Microsoft Store]("https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:regionofsystemrequirementstab").

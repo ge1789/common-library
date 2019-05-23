@@ -9,7 +9,7 @@ This repository contains chapters (randomly sampled) from novels. The novels the
 Encoding instructions
 ---------------------
 
-The encoding procedure used is described in [`novel-encoding-instructions.md`](novel-encoding-instructions.md).
+The encoding procedure used is described in [Prose Fiction Encoding Instructions](https://handbook.ge1789.org/encoding-instructions/).
 
 Manifest
 --------
@@ -20,7 +20,6 @@ Manifest
 -	`scripts/quality_control_checks.py` checks to see if a text has been properly encoded.
 -	`supplementary-materials` contains data used to construct the random samples.
 -	`texts` contains chapters. Filenames begin with ATCL title ids. Texts are encoded using HTML5.
--	[`novel-encoding-instructions.md`](novel-encoding-instructions.md) describes the encoding process.
 -	[`adding-an-encoded-novel.md`](adding-an-encoded-novel.md) describes how to add a novel to this repository.
 
 Known issues
