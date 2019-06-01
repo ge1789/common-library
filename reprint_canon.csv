@@ -55,7 +55,10 @@ sample_index,year,gender,filename,label
 54,1879,m,2465__meredith_egoist_chp34of51_seed2465.html,reprint
 55,1853,w,3334__gaskell_ruth_chp10of36_seed3334.html,reprint
 56,1882,m,10452__adams_democracy_chp9of14_seed10452.html,reprint
-57,1900,m,9714__jerome_three_men_bummel_chp13of14_seed9714.html
+57,1900,m,9714__jerome_three_men_bummel_chp13of14_seed9714.html,reprint
+58,1847,w,3129__bronte_jane_eyre_chp3of38_seed3129.html,reprint
+59,1891,m,4484__hardy_tess_d'urbervilles_chp46of59_seed4484.html,reprint
+60,1889,m,9710__jerome_three_men_boat_chp7of19_seed9710.html,reprint
 64,1848,m,7155__thackeray_vanity_fair_chp46of67_seed7155.html,reprint
 73,1879,m,2308__james_roderick_hudson_chp8of13_seed2308.html,reprint
 74,1882,m,923__hardy_two_tower_chp31of41_seed923.html,reprint
