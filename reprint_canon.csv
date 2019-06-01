@@ -50,9 +50,9 @@ sample_index,year,gender,filename,label
 49,1888,m,6087__hardy_wessex_tales_chp32of32_seed6087.html,reprint
 50,1890,m,4471__collins_blind_love_chp52of66_seed4471.html,reprint
 51,1886,m,7952__james_bostonians_chp37of42_seed7952.html,reprint
-52,1861,w,7475__eliot_silas_marner_chp18of22_seed7475.html,reprint
+52,1894,w,6785__johnstone_sunless_heart_chp17of24_seed6785.html,reprint
 53,1847,w,7446__brönte_wuthering_heights_chp4of34_seed7446.html,reprint
-54,1879,m,2465__meredith_egoist_chp34of51_seed2465.html,reprint
+54,1887,w,11123__harkness_city_girl_chp1of13_seed11123.html,reprint
 55,1853,w,3334__gaskell_ruth_chp10of36_seed3334.html,reprint
 56,1882,m,10452__adams_democracy_chp9of14_seed10452.html,reprint
 57,1900,m,9714__jerome_three_men_bummel_chp13of14_seed9714.html,reprint
@@ -67,7 +67,9 @@ sample_index,year,gender,filename,label
 77,1860,w,3038__eliot_mill_floss_chp10of58_seed3038.html,reprint
 78,1871,m,8811__macdonald_back_north_wind_chp20of38_seed8811.html,reprint
 79,1881,m,6112__trollope_wortle_chp21of24_seed6112.html,reprint
+80,1861,w,7475__eliot_silas_marner_chp18of22_seed7475.html,reprint
 81,1898,m,8595__wells_war_worlds_chp27of27_seed8595.html,reprint
+82,1879,m,2465__meredith_egoist_chp34of51_seed2465.html,reprint
 83,1896,m,8591__wells_island_moreau_chp12of23_seed8591.html,reprint
 84,1891,m,9113__wilde_lord_arthur_chp18of18_seed9113.html,reprint
 85,1892,m,11591__stevenson_beach_falesá_chp4of7_seed11591.html,reprint
