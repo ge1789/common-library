@@ -69,3 +69,7 @@ sample_index,year,gender,filename,label,single_novel_author,multivolume_novel,no
 68,1854,w,4217__pardoe_reginald_lyle_chp11of30_seed4217.html,random,0,1,
 69,1874,u,2387__anon_last_inca_chp40of42_seed2387.html,random,1,1,
 70,1870,w,539__parr_dorothy_fox_chp13of42_seed539.html,random,0,1,
+71,1845,u,4026__bentley_prince_of_orange_chp46of47_seed4026.html,random,1,1,
+72,1873,m,2664__reade_a_simpleton_chp28of29_seed2664.html,random,random,0,1,
+77,1863,u,5691__forbidden_fruit_chp2of24_seed5691.html,random,1,1,
+78,1895,m,14763__barr_gods_donkey_wings_chp6of11_seed14763.html,random,1,0,
