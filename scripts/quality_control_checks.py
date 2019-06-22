@@ -9,7 +9,7 @@ import lxml.html
 parser = argparse.ArgumentParser(description="Check quality of encoding of a text.")
 parser.add_argument("filename", type=str)
 
-NON_ASCII_FREQUENT = set(r"""´‘’“”—àâæçÇéÉèêîôœûñ""")
+NON_ASCII_FREQUENT = set(r"""´‘’“”—àâæçÇéÉèêîôöœüûñ""")
 OCR_LIGATURE_ERRORS = set("ﬀﬁﬂ")
 
 
@@ -23,7 +23,7 @@ def main(filename):
     with open(filename) as fh:
         html = fh.read()
     text = lxml.html.fromstring(html).text_content()
-    _pass_or_fail("<em>" not in html, "checking whether <i> is used for italics")
+    _pass_or_fail("<i>" not in html, "checking whether <em> is used for italics")
     _pass_or_fail("–" not in text, "checking for en-dashes (em-dashes prescribed)")
     _pass_or_fail("―" not in text, "checking for horizontal bars (em-dashes prescribed) ")
     _pass_or_fail("‐" not in text, "checking for Unicode hyphen (ASCII hyphen-minus prescribed) ")
