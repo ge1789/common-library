@@ -9,7 +9,7 @@ import lxml.html
 parser = argparse.ArgumentParser(description="Check quality of encoding of a text.")
 parser.add_argument("filename", type=str)
 
-NON_ASCII_FREQUENT = set(r"""´‘’“”—àâæçÇéÉèêîôœûñ""")
+NON_ASCII_FREQUENT = set(r"""´‘’“”—àâæçÇéÉèêîôöœüûñ""")
 OCR_LIGATURE_ERRORS = set("ﬀﬁﬂ")
 
 
