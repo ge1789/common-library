@@ -77,3 +77,5 @@ sample_index,year,gender,filename,label,single_novel_author,multivolume_novel,no
 76,1878,m,2360__hill_they_were_neighbors_chp20of42_seed2360.html,random,1,1,gender perhaps incorrect
 77,1863,u,5691__forbidden_fruit_chp2of24_seed5691.html,random,1,1,
 78,1895,m,14763__barr_gods_donkey_wings_chp6of11_seed14763.html,random,1,0,
+79,1889,w,1289__fane_story_helen_davenant_chp28of47_seed1289.html,random,0,1,
+80,1887,w,1446__jameson_training_chp34of100_seed1446.html,random,1,1,
