@@ -23,12 +23,12 @@ def main():
             for row in reader:
                 filenames_mentioned.append(row["filename"])
     novel_filenames = tuple(map(os.path.basename, glob.glob(os.path.join(BASE_DIR, "texts", "*.html"))))
-    unmentioned = set(novel_filenames) - set(filenames_mentioned)
+    unmentioned = sorted(set(novel_filenames) - set(filenames_mentioned))
     if unmentioned:
         message = """Filenames in repository but unmentioned in csv files:\n""" + "\n".join(unmentioned)
         print(message, file=sys.stderr)
         sys.exit(1)
-    mentioned_but_absent = set(filenames_mentioned) - set(novel_filenames)
+    mentioned_but_absent = sorted(set(filenames_mentioned) - set(novel_filenames))
     if mentioned_but_absent:
         message = """Filenames mentioned in csv files but absent in repository:\n""" + "\n".join(mentioned_but_absent)
         print(message, file=sys.stderr)
