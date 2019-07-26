@@ -59,7 +59,11 @@ sample_index,year,gender,filename,label
 58,1847,w,3129__bronte_jane_eyre_chp3of38_seed3129.html,reprint
 59,1891,m,4484__hardy_tess_d'urbervilles_chp46of59_seed4484.html,reprint
 60,1889,m,9710__jerome_three_men_boat_chp7of19_seed9710.html,reprint
-64,1848,m,7155__thackeray_vanity_fair_chp46of67_seed7155.html,reprint
+61,1873,m,4427__hardy_pair_blue_eyes_chp24of40_seed4427.html,reprint
+62,1883,m,1888__zola_ladies_paradise_trans_belmont_chp10of15_seed1888.html,reprint
+63,1881,m,6163__james_washington_square_pension_beaurepas_bundle_chp25of53_seed6163.html,reprint
+64,1865,w,7706__gaskell_cousin_phillis_chp6of37_seed7706.html,reprint
+68,1848,m,7155__thackeray_vanity_fair_chp46of67_seed7155.html,reprint
 73,1879,m,2308__james_roderick_hudson_chp8of13_seed2308.html,reprint
 74,1882,m,923__hardy_two_tower_chp31of41_seed923.html,reprint
 75,1883,w,6477__schreiner_african_farm_chp23of27_seed6477.html,reprint

@@ -31,7 +31,7 @@ sample_index,year,gender,filename,label,single_novel_author,multivolume_novel,no
 30,1900,w,13760__conyers_thorn_bit_chp17of41_seed3090.html,random,0,0,"random seed was accidentally author id, not title id"
 31,1866,m,552__platt_angelo_chp3of38_seed522.html,random,0,1,"random seed accidentally set to 522 instead of 552; gender is 'u' in ATCL as of 2018-12-31"
 32,1899,m,8440__raymond_two_men_chp19of19_seed8440.html,random,0,0,
-33,1882,m,13839__daunt_three_trappers_chp9of16_seed13839.html,random,0,0,
+33,1882,m,956__gibbon_golden_shaft_chp33of47_seed956.html,random,0,1,
 34,1859,w,7143__power_nelly_carew_chp32of44_seed7143.html,random,0,1,
 35,1883,w,1523__macewan_beauchamp_chp12of65_seed1523.html,random,0,1,
 36,1893,m,4783__sherer_alice_chp7of48_seed4783.html,random,0,1,
@@ -79,7 +79,9 @@ sample_index,year,gender,filename,label,single_novel_author,multivolume_novel,no
 78,1895,m,14763__barr_gods_donkey_wings_chp6of11_seed14763.html,random,1,0,
 79,1889,w,1289__fane_story_helen_davenant_chp28of47_seed1289.html,random,0,1,
 80,1887,w,1446__jameson_training_chp34of100_seed1446.html,random,1,1,
+81,1900,w,7726__linton_second_youth_theodora_desanges_chp4of21_seed7726.html,random,0,0,
 82,1876,w,2338__grant_next_neighbour_chp20of38_seed2338.html,random,0,1,
+85,1889,m,14922__laurie_conquest_moon_chp33of36_seed14922.html,random,0,0,
 88,1887,u,1682__carstone_love_conqueror_chp7of17_seed1682.html,random,1,1,"gender perhaps incorrect, first name is Sydney"
 89,1880,w,14823__chatelain_man_many_daughters_chp103of104_seed14823.html,random,0,0,
 90,1875,w,2355__helmore_cap_and_bells_chp15of48_seed2355.html,random,0,1,
