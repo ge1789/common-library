@@ -87,3 +87,6 @@ sample_index,year,gender,filename,label,single_novel_author,multivolume_novel,no
 88,1887,u,1682__carstone_love_conqueror_chp7of17_seed1682.html,random,1,1,"gender perhaps incorrect, first name is Sydney"
 89,1880,w,14823__chatelain_man_many_daughters_chp103of104_seed14823.html,random,0,0,
 90,1875,w,2355__helmore_cap_and_bells_chp15of48_seed2355.html,random,0,1,
+91,1869,m,707__trollope_garstangs_garstangs_grange_chp1of49_seed707.html,random,0,1,
+92,1877,u,5710__anon_lady_lynway_chp33of33_seed5710.html,random,1,1,
+93,1900,m,8534__boldrewood_babes_bush_chp9of27_seed8534.html,random,0,0,
