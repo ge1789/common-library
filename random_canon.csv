@@ -16,12 +16,12 @@ sample_index,year,gender,filename,label,single_novel_author,multivolume_novel,no
 15,1848,m,7155__thackeray_vanity_fair_chp46of67_seed7155.html,random,0,0,also in reprint canon
 16,1881,w,1120__rita_fragoletta_chp20of33_seed1120.html,random,0,1,
 17,1899,m,11919__clifford_inacornerofasia_chp4of11_seed11919.html,random,0,0,
-18,1865,w,458__marryat_lovesconflict_chp4of48_seed458.html,random,0,1,
+18,1865,w,502__murray_john_alston_vow_chp21of41_seed502.html,random,0,1,
 19,1874,m,2534__knight_romanceofacadia_chp16of29_seed2534.html,random,0,1,
 20,1882,m,1453__jenkins_jobsonsenemies_chp21of69_seed1453.html,random,0,1,
 21,1894,w,4705__lyall_rightwrong_chp25of41_seed4705.html,random,0,1,
 22,1888,u,6459__peregrinator_florida_chp13of13_seed6459.html,random,1,1,
-23,1892,m,4798__wills_ruthven_chp27of32_seed4798.html,random,0,1,
+23,1892,m,4847__churchward_jem_peterkin_chp12of34_seed4847.html,random,0,1,
 24,1883,w,12419__marshall_constantia_chp2of4_seed12419.html,random,0,0,
 25,1900,w,7741__alexander_fire_fortune_chp16of26_seed7741.html,random,0,0,
 26,1901,w,12089__croker_angel_chp26of40_seed12089.html,random,0,0,
@@ -82,6 +82,8 @@ sample_index,year,gender,filename,label,single_novel_author,multivolume_novel,no
 81,1900,w,7726__linton_second_youth_theodora_desanges_chp4of21_seed7726.html,random,0,0,
 82,1876,w,2338__grant_next_neighbour_chp20of38_seed2338.html,random,0,1,
 85,1889,m,14922__laurie_conquest_moon_chp33of36_seed14922.html,random,0,0,
+86,1901,w,13346__rhys_wooing_sheila_chp20of42_seed13346.html,random,0,0,
+87,1899,m,11738__bullock_barrys_chp17of17_seed11738.html,random,0,0,
 88,1887,u,1682__carstone_love_conqueror_chp7of17_seed1682.html,random,1,1,"gender perhaps incorrect, first name is Sydney"
 89,1880,w,14823__chatelain_man_many_daughters_chp103of104_seed14823.html,random,0,0,
 90,1875,w,2355__helmore_cap_and_bells_chp15of48_seed2355.html,random,0,1,
