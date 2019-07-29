@@ -43,3 +43,4 @@ Contributors
 - Hannah Mills
 - Rachel Condon
 - Sarah Duke
+- Joseph Bassett
