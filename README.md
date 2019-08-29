@@ -44,3 +44,10 @@ Contributors
 - Rachel Condon
 - Sarah Duke
 - Joseph Bassett
+
+Release notes
+-------------
+
+## 1.0 (2019-08-29)
+
+- Add 75 Common Library novels.
