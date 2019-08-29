@@ -1,4 +1,4 @@
-In December 2018, we (Troy Bassett and Allen Riddell) realized we needed to
+In December 2018, we (Troy J. Bassett and Allen Riddell) realized we needed to
 restrict the sample frame to a clearly identifiable subpopulation: novels which
 had page images available for *the first edition*. This involved replacing a
 number of texts. We also replaced titles which were found, during 2018, to have
@@ -14,4 +14,4 @@ faulty metadata in the ATCL database. Here's the list:
 - Novel by Oppenheim does not have first edition page images
 - Novel by Johnston does not have first edition page images
 - Novel by Hutcheson does not have first edition page images
-- Novel by Everett-Green was already present in the Random Canon, sample a new one.
+- Novel by Everett-Green was already present in the Common Library, sample a new one.

@@ -8,3 +8,6 @@ Making the substitutions described in `Random Canon Substitutions.docx`
 corrects things. Books which have first-edition digital surrogates and should
 have been sampled by our random sampling procedure now are sampled in the
 correct order.
+
+NOTE(2019-08-29): The name of this dataset was changed from "Random Canon" to
+"Common Library" in August 2019.

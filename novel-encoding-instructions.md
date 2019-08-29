@@ -1,4 +1,4 @@
-Random Canon Novel Encoding Instructions
+Common Library Novel Encoding Instructions
 ========================================
 
 Version 1.3.1
